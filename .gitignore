@@ -31,8 +31,6 @@ npm-debug.log
 assets/node_modules/
 
 # Environment variables and configuration
-.env
-.env.*
 !.env.example
 env.sh
 cloudron_env_set
@@ -72,7 +70,6 @@ priv/plts/
 test/reports/
 
 # IDE and editor files
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -165,3 +162,4 @@ uploads/
 # reads it. A committed copy only goes stale and misleads whoever opens it to
 # learn the schema.
 priv/repo/structure.sql
+config.bat
